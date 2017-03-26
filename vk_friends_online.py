@@ -26,7 +26,7 @@ def get_online_friends(login, password):
 
 
 def output_friends_to_console(friends_online):
-    if len(friends_online) == 0:
+    if not friends_online:
         print('No friends online found')
     else:
         print('Friends online:')
